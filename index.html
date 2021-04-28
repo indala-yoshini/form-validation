@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel = "stylesheet" href = style.css>
+</head>
+<body id="body" style="background-color: red;">
+    <div class="container">
+        <div class="header">
+            <h2>REGISTRATION FORM</h2>
+        </div>
+        <form class="form" id="form" action="index1.html" method="post">
+            <div class="form-control"  >
+                <label for="username">Username :</label>
+                <input type="text" name="username"  id="username"  placeholder="Enter Your Full Name" autocomplete="off" >
+                <i class="fas fa-check-circle" id="2"></i> 
+                <i class="fas fa-exclamation-circle" id="1" style="
+                margin-left:-24px;
+                margin-right:50px;
+                visibility: hidden;
+               ";></i>
+            </br> 
+                <small id="msg" style="visibility:hidden;color:red">error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="Email">E-Mail :</label>
+                <input type="Email" name="Email"  id="Email" placeholder="Enter Your E-Mail" autocomplete="off">
+                <i class="fas fa-check-circle" id="4"></i> 
+                <i class="fas fa-exclamation-circle" id="3" style="
+                margin-left:-24px;
+                margin-right:50px;
+                visibility: hidden;
+               ";></i>
+            </br> 
+                <small id="emsg" style="visibility:hidden;color:red">error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="tel">Phone No :</label>
+                <input type="tel" name="tel"  id="tel" placeholder="Enter Your Phone Number" autocomplete="off" >
+                <i class="fas fa-check-circle" id="6"></i> 
+                <i class="fas fa-exclamation-circle" id="5" style="
+                margin-left:-24px;
+                margin-right:50px;
+                visibility: hidden;
+               ";></i>
+            </br> 
+                <small id="eemsg" style="visibility:hidden;color:red">error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">password :</label>
+                <input type="password" name="password"  id="password" placeholder="Enter Your password" autocomplete="off">
+                <i class="fas fa-check-circle" id="8"></i> 
+                <i class="fas fa-exclamation-circle" id="7" style="
+                margin-left:-24px;
+                margin-right:50px;
+                visibility: hidden;
+               ";></i>
+            </br> 
+                <small id="eeemsg" style="visibility:hidden;color:red">error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label for="cpassword">Confirm Password :</label>
+                <input type="password" name="cpassword"  id="cpassword" placeholder="Confirm Your password" autocomplete="off">
+                <i class="fas fa-check-circle" id="10"></i> 
+                <i class="fas fa-exclamation-circle" id="9" style="
+                margin-left:-24px;
+                margin-right:50px;
+                visibility: hidden;
+               ";></i>
+            </br> 
+                <small id="eeeemsg" style="visibility:hidden;color:red">error msg</small>
+            </div>
+
+            <div class="form-control">
+                <p>
+                    <label for="Call">Best Time To Call</label>
+                    <input type="radio"name=call>morning
+                    <input type="radio"name=call>evening
+                    <input type="radio"name=call>night
+                    </p>
+            </div>
+
+
+          
+            
+            <div class="form-control">
+            <label for="start"> Course start Date:</label>
+            <input type="date" name="date">
+        </div>
+
+        <div class="form-control">
+        <label for="pages">No of Pages:</label>
+		<input type="number" name="pages" placeholder="not mandatory" autocomplete="off">
+</div>
+
+<div class="form-control">
+<label for="Budget">Budget:</label>
+		<select type"list"name=budget>
+		<option>...select one...</option>
+		<option value="100-500">$100-$500</option>
+		<option value="500-5000">$500-$1000</option>
+		<option value="1000-2000">$1000-$2000</option>
+		<option value="2000-3000">$2000-$3000</option>
+		<option value="3000-4000">$3000-$4000</options>
+		<option value="not sure">$not sure</options>
+		</select>
+        </div>
+
+           <!-- <input type="submit" value="submit" name="button" class="btn"  > -->
+  <button class="btn">Submit</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+
+</body>
+</html>
