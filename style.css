@@ -14,7 +14,7 @@ body {
     
 }
 
-.container {
+.containers {
     box-sizing: border-box;
     border-style:solid;
     background-color: #fff;
